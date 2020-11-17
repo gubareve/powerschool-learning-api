@@ -18,7 +18,7 @@ sys.path.insert(0, os.path.abspath('../powerschoollearning'))
 # -- Project information -----------------------------------------------------
 
 project = 'PowerSchool Learning API'
-copyright = '2020, gubareve'
+copyright = '2020 Gubareve'
 author = 'gubareve'
 
 
