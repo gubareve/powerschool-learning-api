@@ -16,21 +16,20 @@
 # SOFTWARE.
 
 
-class Eclass:
-    "eclass class."
+class Grade:
+    "Grade class."
 
-    def __init__(self, name: str = None, url: str = None, teacher: str = None):
+    def __init__(self, earned_points: float, total_points: float, letter_grade: str, name: str, url: str):
         """
-        :param name: (optional) name of the class
+        :param percentage: grade percentage (0.97) is 97%
         :type name: str
-        :param url: (optional) relative url for the class
-        :type url: str
-        :param teacher: (optional) name of the teacher
-        :type teacher: string
+
         """
+        self.earned_points = earned_points
+        self.total_points = total_points
+        self.letter_grade = letter_grade
         self.name = name
         self.url = url
-        self.teacher = teacher
 
     def __str__(self):
         return self.url

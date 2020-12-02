@@ -15,6 +15,7 @@
 # OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 # SOFTWARE.
 
+
 class LoginFailed(Exception):
     """
     This is throwed when the client attempts to log in and fails.
