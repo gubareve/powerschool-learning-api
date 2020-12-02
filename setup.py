@@ -4,7 +4,7 @@ import os
 setup(
     name="powerschoollearning",
     packages=["powerschoollearning"],
-    version="1.0.0",
+    version="1.0.1",
     description="Python library for powerschool learning.",
     author="gubareve",
     url="https://github.com/gubareve/powerschool-learning-api",
