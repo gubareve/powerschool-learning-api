@@ -4,7 +4,7 @@ import logging
 
 logging.basicConfig(level=logging.INFO)
 
-client = powerschoollearning.ps("bea11f85b849fbc8c6c04f10850ae74c", "lakesideblended.learning.powerschool.com")
+client = powerschoollearning.ps("<my refresh token>", "lakesideblended.learning.powerschool.com")
 
 
 async def main():
