@@ -2,7 +2,11 @@
 
 This is a simple asynchronous api for interfacing with powerschool learning.
 
-Here is a simple example:
+# Installation
+
+`pip install powerschoollearning` Works best.
+
+# Example
 
 ```py
 import powerschoollearning
