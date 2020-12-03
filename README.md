@@ -28,7 +28,7 @@ This program will take a look at the user's classes and print every classes name
 
 ## Refresh Tokens
 
-Since logging into powerschool is handled via oauth, we use refresh tokens to authenticate the user, to get your refresh token push look in the network -> cookies tab of the development tab of a browser while you load powersscool.
+Since logging into powerschool is handled via oauth, we use refresh tokens to authenticate the user, to get your refresh token check your cookies on the Powerschool Learning page.
 
 ## Not finished.
 
